@@ -388,24 +388,27 @@ a {
 }
 
 .addons {
-  margin-top: 36px;
-  padding: 18px 22px;
+  margin: 36px auto 0;
+  max-width: 640px;
+  padding: 22px 28px;
   background: var(--amber-light);
   border-radius: 6px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 24px;
-  align-items: baseline;
+  text-align: center;
 }
-.addons-label {
+.addons-title {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.3px;
   color: var(--amber);
+  margin-bottom: 10px;
 }
 .addon-item {
   font-size: 13.5px;
   color: var(--ink-soft);
+  line-height: 1.5;
+}
+.addon-item + .addon-item {
+  margin-top: 6px;
 }
 
 /* ---------- FIT ---------- */
