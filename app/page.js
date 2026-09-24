@@ -47,7 +47,7 @@ export default function Home() {
           <div className="section-inner">
             <div className="section-head">
               <div className="section-kicker">The math</div>
-              <h2>You&apos;re not paying for paperwork. You&apos;re paying to stop bleeding money on bad hires.</h2>
+              <h2>A bad hire costs more than this ever will.</h2>
             </div>
             <div className="math-grid">
               <div className="math-card">
@@ -86,12 +86,12 @@ export default function Home() {
           <div className="section-inner">
             <div className="section-head">
               <div className="section-kicker">What you keep</div>
-              <h2>Paperwork is the byproduct. A system that runs without you is the point.</h2>
+              <h2>You&apos;ll use this on hire #2, hire #10, and every one after.</h2>
               <p className="section-lead">
                 A scorecard built once gets reused every time that role opens
                 again. An ATS pipeline configured once runs in the background
-                for years. This isn&apos;t something you open once and forget —
-                it&apos;s the machine your next ten hires run through.
+                for years. None of it gets rebuilt from scratch next time
+                someone quits.
               </p>
             </div>
             <div className="system-grid">
@@ -176,7 +176,7 @@ export default function Home() {
           <div className="section-inner">
             <div className="section-head">
               <div className="section-kicker">The engagement</div>
-              <h2>Three ways in, depending on where your hiring actually is.</h2>
+              <h2>Pick the one that matches where you&apos;re stuck.</h2>
             </div>
 
             <div className="tier-grid">
@@ -223,13 +223,13 @@ export default function Home() {
             </div>
 
             <div className="addons">
-              <span className="addons-label">Add-ons</span>
-              <span className="addon-item">
+              <div className="addons-title">Add-ons</div>
+              <div className="addon-item">
                 AI-powered hiring workflows (auto-drafted outreach, resume flagging, rejection emails) — $750–$1,500
-              </span>
-              <span className="addon-item">
+              </div>
+              <div className="addon-item">
                 Additional advisory hours — $250/hr, or a 5-hr block for $1,100
-              </span>
+              </div>
             </div>
           </div>
         </section>
