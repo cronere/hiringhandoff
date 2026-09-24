@@ -17,11 +17,11 @@ export default function Home() {
 
       <main>
         {/* ---------- HERO ---------- */}
-        <section className="hero">
+        <section className="hero band-dark">
           <div className="hero-inner">
             <h1>
-              A working hiring system, built <em>with you</em> — not handed to you
-              as a template.
+              A working hiring system, built <em>with you</em> — not handed to
+              you as a template.
             </h1>
             <p className="hero-sub">
               Most small businesses don&apos;t hire badly because they lack
@@ -45,8 +45,10 @@ export default function Home() {
         {/* ---------- THE MATH / ROI ---------- */}
         <section className="math">
           <div className="section-inner">
-            <div className="section-kicker">The math</div>
-            <h2>You&apos;re not paying for documents. You&apos;re paying to stop bleeding money on bad hires.</h2>
+            <div className="section-head">
+              <div className="section-kicker">The math</div>
+              <h2>You&apos;re not paying for paperwork. You&apos;re paying to stop bleeding money on bad hires.</h2>
+            </div>
             <div className="math-grid">
               <div className="math-card">
                 <div className="math-figure">$15–25K+</div>
@@ -80,16 +82,18 @@ export default function Home() {
         </section>
 
         {/* ---------- WHAT'S ACTUALLY REPEATABLE ---------- */}
-        <section className="system">
+        <section className="system band-tint">
           <div className="section-inner">
-            <div className="section-kicker">What you keep</div>
-            <h2>The documents are the byproduct. The system is what runs on repeat.</h2>
-            <p className="section-lead">
-              A scorecard built once gets reused every time that role opens
-              again. An ATS pipeline configured once runs in the background for
-              years. This isn&apos;t a folder of templates you&apos;ll open once and
-              forget — it&apos;s the machine your next ten hires run through.
-            </p>
+            <div className="section-head">
+              <div className="section-kicker">What you keep</div>
+              <h2>Paperwork is the byproduct. A system that runs without you is the point.</h2>
+              <p className="section-lead">
+                A scorecard built once gets reused every time that role opens
+                again. An ATS pipeline configured once runs in the background
+                for years. This isn&apos;t something you open once and forget —
+                it&apos;s the machine your next ten hires run through.
+              </p>
+            </div>
             <div className="system-grid">
               <div className="system-item">
                 <div className="system-item-title">Scorecards, reused every hire</div>
@@ -109,11 +113,11 @@ export default function Home() {
                 <div className="system-item-title">A repeatable interview process</div>
                 <div className="system-item-body">
                   Who&apos;s in the room, what each person evaluates, how you
-                  compare finalists. A process, not a one-time document.
+                  compare finalists — built once, used every time.
                 </div>
               </div>
               <div className="system-item">
-                <div className="system-item-title">Templates that never get rewritten</div>
+                <div className="system-item-title">Messaging you never draft twice</div>
                 <div className="system-item-body">
                   Rejection emails, offer letters, a sourcing guide for
                   whoever runs hiring day-to-day. Reused forever, not drafted
@@ -125,10 +129,12 @@ export default function Home() {
         </section>
 
         {/* ---------- HOW IT WORKS ---------- */}
-        <section className="how">
+        <section className="how band-alt">
           <div className="section-inner">
-            <div className="section-kicker">How it works</div>
-            <h2>Three steps. No playbook you have to follow on your own.</h2>
+            <div className="section-head">
+              <div className="section-kicker">How it works</div>
+              <h2>Three steps. No playbook you have to follow on your own.</h2>
+            </div>
             <div className="how-steps">
               <div className="how-step">
                 <div className="how-num">1</div>
@@ -168,8 +174,10 @@ export default function Home() {
         {/* ---------- ENGAGEMENT TIERS ---------- */}
         <section className="tiers" id="pricing">
           <div className="section-inner">
-            <div className="section-kicker">The engagement</div>
-            <h2>Three ways in, depending on where your hiring actually is.</h2>
+            <div className="section-head">
+              <div className="section-kicker">The engagement</div>
+              <h2>Three ways in, depending on where your hiring actually is.</h2>
+            </div>
 
             <div className="tier-grid">
               <div className="tier-card">
@@ -194,7 +202,7 @@ export default function Home() {
                   <li>Everything in Foundation</li>
                   <li>Lightweight ATS configured and connected</li>
                   <li>Scorecards for every recurring role type</li>
-                  <li>Interview panel structure and rejection/offer templates</li>
+                  <li>Interview panel structure and rejection/offer messaging</li>
                   <li>Live 60–90 min manager training, recorded for reuse</li>
                   <li>2 weeks of support through your first live search</li>
                 </ul>
@@ -227,51 +235,63 @@ export default function Home() {
         </section>
 
         {/* ---------- WHO IT'S FOR ---------- */}
-        <section className="fit">
-          <div className="section-inner fit-inner">
-            <div className="fit-col">
-              <div className="section-kicker">Who this is for</div>
-              <ul className="fit-list">
-                <li>10–75 employees, hiring a handful of roles a year</li>
-                <li>Owner or office manager currently doing all the hiring</li>
-                <li>Tired of gut-feel hires that don&apos;t work out</li>
-                <li>Not ready for — or priced out of — a retained search firm</li>
-              </ul>
+        <section className="fit band-alt">
+          <div className="section-inner">
+            <div className="section-head">
+              <div className="section-kicker">Fit check</div>
+              <h2>Built for the businesses agencies turn away.</h2>
             </div>
-            <div className="fit-col">
-              <div className="section-kicker">What this isn&apos;t</div>
-              <ul className="fit-list fit-list-not">
-                <li>Not candidate placement — you keep the keys when it ends</li>
-                <li>Not a document library you&apos;ll open once and forget</li>
-                <li>Not an ongoing retainer you have to keep paying for</li>
-              </ul>
+            <div className="fit-inner">
+              <div className="fit-col">
+                <div className="section-kicker">Who this is for</div>
+                <ul className="fit-list">
+                  <li>10–75 employees, hiring a handful of roles a year</li>
+                  <li>Owner or office manager currently doing all the hiring</li>
+                  <li>Tired of gut-feel hires that don&apos;t work out</li>
+                  <li>Not ready for — or priced out of — a retained search firm</li>
+                </ul>
+              </div>
+              <div className="fit-col">
+                <div className="section-kicker">What this isn&apos;t</div>
+                <ul className="fit-list fit-list-not">
+                  <li>Not candidate placement — you keep the keys when it ends</li>
+                  <li>Not a binder that collects dust after week one</li>
+                  <li>Not an ongoing retainer you have to keep paying for</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
 
         {/* ---------- ABOUT ---------- */}
         <section className="about" id="about">
-          <div className="section-inner about-inner">
-            <img src="/jacob.jpg" alt="Jacob Merkley" className="about-photo" />
-            <div>
-              <div className="about-name">Jacob Merkley</div>
-              <p className="about-bio">
-                Jacob has spent 7+ years as an agency recruiter running 500+
-                searches for companies ranging from mom-and-pop shops to
-                publicly traded Fortune 500s — 140+ placements, $3.2M in
-                career billings. He&apos;s seen exactly what breaks when a
-                small business tries to hire without a real process, and
-                exactly what fixes it. Bachelor&apos;s in Accounting, MBA.
-              </p>
-              <a className="about-linkedin" href={LINKEDIN_URL} target="_blank" rel="noreferrer">
-                Connect on LinkedIn →
-              </a>
+          <div className="section-inner">
+            <div className="section-head">
+              <div className="section-kicker">About</div>
+              <h2>Built by someone who&apos;s done 500+ of these.</h2>
+            </div>
+            <div className="about-inner">
+              <img src="/jacob.jpg" alt="Jacob Merkley" className="about-photo" />
+              <div>
+                <div className="about-name">Jacob Merkley</div>
+                <p className="about-bio">
+                  Jacob has spent 7+ years as an agency recruiter running 500+
+                  searches for companies ranging from mom-and-pop shops to
+                  publicly traded Fortune 500s — 140+ placements, $3.2M in
+                  career billings. He&apos;s seen exactly what breaks when a
+                  small business tries to hire without a real process, and
+                  exactly what fixes it. Bachelor&apos;s in Accounting, MBA.
+                </p>
+                <a className="about-linkedin" href={LINKEDIN_URL} target="_blank" rel="noreferrer">
+                  Connect on LinkedIn →
+                </a>
+              </div>
             </div>
           </div>
         </section>
 
         {/* ---------- FINAL CTA ---------- */}
-        <section className="final-cta">
+        <section className="final-cta band-dark">
           <div className="section-inner final-cta-inner">
             <h2>Your next hire can run through a system, not a hunch.</h2>
             <div className="hero-ctas">
