@@ -261,6 +261,11 @@ a {
   border-radius: 6px;
   padding: 20px 22px;
 }
+.system-item-wide {
+  grid-column: 1 / -1;
+  background: var(--amber-light);
+  border-color: var(--amber);
+}
 .system-item-title {
   font-size: 15px;
   font-weight: 700;
