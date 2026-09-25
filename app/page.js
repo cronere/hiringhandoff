@@ -1,4 +1,4 @@
-const CALENDLY_URL = "https://calendly.com/YOUR-CALENDLY-HANDLE/hireframing-intro"; // TODO: replace with your real Calendly link
+const CALENDLY_URL = "https://calendly.com/jacob-merkley/hh-intro-call";
 const LINKEDIN_URL = "https://www.linkedin.com/in/jacobmerkley/";
 
 export default function Home() {
@@ -122,6 +122,20 @@ export default function Home() {
                   Rejection emails, offer letters, a sourcing guide for
                   whoever runs hiring day-to-day. Reused forever, not drafted
                   fresh every time.
+                </div>
+              </div>
+              <div className="system-item system-item-wide">
+                <div className="system-item-title">Questions AI can&apos;t answer for them</div>
+                <div className="system-item-body">
+                  67% of hiring managers say AI-generated applications have
+                  slowed their hiring down — everyone&apos;s inbox is full of
+                  identical, keyword-stuffed resumes now. Every question in
+                  your kit is built around what actually broke at your
+                  company, not a generic competency. A candidate can prep for
+                  a common interview question with ChatGPT. They can&apos;t
+                  prep for &quot;walk me through why the last hire in this role
+                  didn&apos;t work out&quot; — that question doesn&apos;t exist
+                  anywhere except in your process.
                 </div>
               </div>
             </div>
