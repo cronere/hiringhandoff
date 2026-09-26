@@ -291,8 +291,8 @@ export default function Home() {
                 <p className="about-bio">
                   Jacob has spent 7+ years as an agency recruiter running 500+
                   searches for companies ranging from mom-and-pop shops to
-                  publicly traded Fortune 500s — 140+ placements, $3.2M in
-                  career billings. He&apos;s seen exactly what breaks when a
+                  publicly traded Fortune 500s — 140+ placements across $3.2M
+                  in career billings. He&apos;s seen exactly what breaks when a
                   small business tries to hire without a real process, and
                   exactly what fixes it. Bachelor&apos;s in Accounting, MBA.
                 </p>
